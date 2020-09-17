@@ -1,0 +1,14 @@
+{
+  "name": "onepagestudio",
+  "version": "1.0.0",
+  "description": "MultiDots Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SK77",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}

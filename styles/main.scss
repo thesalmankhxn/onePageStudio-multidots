@@ -1,0 +1,11 @@
+// custom variables & global styles
+@import "customVariables";
+@import "global";
+
+// Sections
+@import "navbar";
+@import "hero";
+@import "ourServices";
+
+// importing styles from bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

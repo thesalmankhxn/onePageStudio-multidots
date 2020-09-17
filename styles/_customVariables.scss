@@ -1,0 +1,28 @@
+// Google Fonts - Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+
+$theme-colors: (
+    "primary": #01144d,
+    "secondary": #ff841c,
+);
+
+$primary: #01144d;
+$secondary: #ff841c;
+$dark: #1a1a1a;
+$light: #fff;
+
+// Breakpoints
+$breakpoints: (
+    small: 499px,
+    medium: 699px,
+    large: 999px,
+    xlarge: 1399px
+);
+
+@mixin breakpoint($size){
+    $breakpoint-value: map-get($breakpoints, $size);
+
+    @media screen and (min-width: $breakpoint-value){
+        @content;
+    }
+}

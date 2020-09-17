@@ -1,0 +1,27 @@
+nav {
+    img {
+        width: 12rem;
+    }
+
+    .nav-link {
+        font-weight: 600;
+        font-size: .7rem;
+        color: $light !important;
+    }
+
+    @include breakpoint (medium) {
+        .nav-link {
+            font-size: .75rem;
+        }
+    }
+
+    @include breakpoint (large) {
+        img {
+            width: 100%;
+        }
+
+        .nav-link {
+            margin-right: 1rem;
+        }
+    }
+}

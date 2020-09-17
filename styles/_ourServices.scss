@@ -1,0 +1,29 @@
+#our-services {
+
+    .row {
+        height: 70vh;
+        padding: 0;
+        z-index: -999;
+    }
+    .left-30 {
+        padding: 0;
+        .img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .right-70 {
+        padding: 0;
+        .img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .what-we-do {
+        z-index: 999;
+    }
+
+}
