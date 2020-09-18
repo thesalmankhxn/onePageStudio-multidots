@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -114,34 +114,153 @@ nav .nav-link {
   }
 }
 
-#our-services .row {
-  height: 70vh;
-  padding: 0;
-  z-index: -999;
-}
-
-#our-services .left-30 {
-  padding: 0;
-}
-
-#our-services .left-30 .img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-#our-services .right-70 {
-  padding: 0;
-}
-
-#our-services .right-70 .img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+#our-services {
+  padding: 3rem 0;
 }
 
 #our-services .what-we-do {
-  z-index: 999;
+  padding: 1rem;
+  background-color: #fff;
+  width: 23.125rem;
+  margin: auto;
+}
+
+#our-services .what-we-do p {
+  color: #7a7a7a;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: .5rem;
+}
+
+#our-services .what-we-do h2 {
+  color: #01144d;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+#our-services .what-we-do .services__list {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-column-gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+#our-services .what-we-do .services__list-image {
+  margin-top: 8px;
+}
+
+#our-services .what-we-do .services__list-heading {
+  color: #01144d;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: .8rem;
+}
+
+#our-services .what-we-do .services__list-description {
+  color: #686868;
+  font-weight: 200;
+}
+
+@media screen and (min-width: 699px) {
+  #our-services .what-we-do {
+    width: 40rem;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  #our-services {
+    background-image: url("../images/our-services/right-70.png");
+    background-position: top;
+  }
+  #our-services .what-we-do {
+    width: 45rem;
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  #our-services {
+    background-image: url("/images/our-services/left-30.png"), url("/images/our-services/right-70.png");
+    background-position: top left, top right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35%, 65%;
+    height: 100%;
+  }
+  #our-services .what-we-do {
+    width: 55rem;
+    padding: 2rem 3rem;
+  }
+}
+
+#our-work {
+  padding: 3rem 0;
+}
+
+#our-work .wrapper {
+  padding: 1rem;
+  background-color: #fff;
+  width: 23.125rem;
+  margin: auto;
+}
+
+#our-work .wrapper p {
+  color: #7a7a7a;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: .5rem;
+}
+
+#our-work .wrapper h2 {
+  color: #01144d;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
+}
+
+#our-work .wrapper .work-description {
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#our-work .wrapper .carousel {
+  margin: 2rem 0;
+}
+
+#our-work .wrapper .carousel__image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+#our-work .wrapper .carousel__heading {
+  color: #01144d;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+#our-work .wrapper .carousel__info {
+  color: #7a7a7a;
+  font-size: .8rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+#our-work .wrapper .carousel__description {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 699px) {
+  #our-work .wrapper {
+    width: 40rem;
+  }
+  #our-work .wrapper .carousel__description {
+    width: 300px;
+    margin: auto;
+  }
 }
 
 /*!

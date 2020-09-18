@@ -1,0 +1,77 @@
+#our-work {
+    padding: 3rem 0;
+
+    .wrapper {
+        padding: 1rem;
+        background-color: $light;
+        width: 23.125rem;
+        margin: auto;
+
+        p {
+            color: #7a7a7a;
+            font-weight: 600;
+            font-size: 1.125rem;
+            margin-bottom: .5rem;
+        }
+
+        h2 {
+            color: $primary;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1.4rem;
+        }
+
+        .work-description {
+            color: #7a7a7a;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+             // Carousel item
+
+        .carousel {
+            margin: 2rem 0;
+
+            &__image {
+                height: 300px;
+                width: 300px;
+                margin-bottom: 2rem;
+            }
+
+            &__heading {
+                color: $primary;
+                font-weight: 600;
+                font-size: 1.3rem;
+                margin-bottom: .5rem;
+            }
+
+            &__info {
+                color: #7a7a7a;
+                font-size: .8rem;
+                font-weight: 200;
+                margin-bottom: 1rem;
+            }
+
+            &__description {
+                font-size: 1rem;
+                font-weight: 500;
+            }
+        }
+
+    }
+
+    @include breakpoint(medium) {
+
+        .wrapper {
+            width: 40rem;
+
+            .carousel {
+
+                &__description {
+                    width: 300px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
