@@ -46,7 +46,7 @@
 
     @include breakpoint(medium) {
 
-        padding: 15rem 0 4rem 0;
+        padding: 12rem 0 4rem 0;
         .wrapper {
             .carousel {
                 &__description {
@@ -97,10 +97,6 @@
                 font-size: 1.125rem;
             }
         }
-    }
-
-    @include breakpoint(xlarge) {
-        padding: 7rem 0;
     }
 
 }

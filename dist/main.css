@@ -403,7 +403,7 @@ nav .nav-link {
 
 @media screen and (min-width: 699px) {
   #our-team {
-    padding: 15rem 0 4rem 0;
+    padding: 12rem 0 4rem 0;
   }
   #our-team .wrapper .carousel__description {
     width: 300px;
@@ -445,12 +445,6 @@ nav .nav-link {
 @media screen and (min-width: 999px) {
   #our-team .wrapper .work-description {
     font-size: 1.125rem;
-  }
-}
-
-@media screen and (min-width: 1399px) {
-  #our-team {
-    padding: 7rem 0;
   }
 }
 
