@@ -448,6 +448,43 @@ nav .nav-link {
   }
 }
 
+#testimonials .get-a-quote {
+  background-image: url("../images/testimonial/quote.png");
+  background-position-y: -3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+}
+
+#testimonials .get-a-quote h6 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+#testimonials .get-a-quote p {
+  color: #fff;
+  font-weight: 200;
+}
+
+#testimonials .get-a-quote .btn {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: .8rem 0;
+  float: right;
+}
+
+@media screen and (min-width: 999px) {
+  #testimonials .get-a-quote {
+    padding: 7rem 0;
+  }
+  #testimonials .get-a-quote .btn {
+    margin: 3.5rem 0 0 0;
+  }
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

@@ -1,0 +1,40 @@
+#testimonials {
+
+
+    .get-a-quote {
+        background-image: url('../images/testimonial/quote.png');
+        background-position-y: -3rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5rem 0;
+
+        h6 {
+            color: $light;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: .8rem;
+        }
+
+        p {
+            color: $light;
+            font-weight: 200;
+        }
+
+        .btn {
+            color: $light;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: .8rem 0;
+            float: right;
+        }
+
+        @include breakpoint(large) {
+
+                padding: 7rem 0;
+
+                .btn {
+                    margin: 3.5rem 0 0 0;
+                }
+        }
+    }
+}
