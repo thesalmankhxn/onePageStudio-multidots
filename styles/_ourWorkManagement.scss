@@ -1,0 +1,68 @@
+#management {
+    background-image: url('../images/work-management/management.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    
+    .wrapper {
+        padding: 3rem 0 0 0;
+
+        p {
+            color: $light;
+            color: #d3d3d3;
+        }
+
+        h2 {
+            color: $light;
+        }
+
+        .management-description {
+            font-weight: 200;
+            margin-bottom: 3rem;
+        }
+
+        .left, .right {
+            padding: 3.5rem 0;
+            margin: 0 1rem;
+
+            img {
+                padding-bottom: 2rem;
+            }
+
+            h5 {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            p {
+                font-weight: 200;
+                color: #6e6e6e;
+            }
+        }
+
+        .left {
+            background-image: url('../images/work-management/icons/Circle.png');
+            background-position: right;
+            background-repeat: no-repeat;
+            background-color: #f3f3f3;
+
+            img {
+                padding-bottom: 3.1rem;
+            }
+        }
+
+        .right {
+            background-color: $light;
+        }
+    }
+
+    @include breakpoint(medium) {
+        height: 35rem;
+        
+        .wrapper {
+            .left, .right {
+                margin: 0;
+            }
+        }
+    }
+}

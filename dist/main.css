@@ -1,10 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
 .text-center {
   text-align: center;
+}
+
+.wrapper p {
+  color: #7a7a7a;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: .5rem;
+}
+
+.wrapper h2 {
+  color: #01144d;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.4rem;
 }
 
 nav img {
@@ -125,20 +138,6 @@ nav .nav-link {
   margin: auto;
 }
 
-#our-services .what-we-do p {
-  color: #7a7a7a;
-  font-weight: 600;
-  font-size: 1.125rem;
-  margin-bottom: .5rem;
-}
-
-#our-services .what-we-do h2 {
-  color: #01144d;
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: .8rem;
-}
-
 #our-services .what-we-do .services__list {
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -181,11 +180,12 @@ nav .nav-link {
 
 @media screen and (min-width: 1399px) {
   #our-services {
+    padding: 7rem 0;
     background-image: url("/images/our-services/left-30.png"), url("/images/our-services/right-70.png");
     background-position: top left, top right;
     background-repeat: no-repeat, no-repeat;
     background-size: 35%, 65%;
-    height: 100%;
+    height: 47rem;
   }
   #our-services .what-we-do {
     width: 55rem;
@@ -194,28 +194,13 @@ nav .nav-link {
 }
 
 #our-work {
-  padding: 3rem 0;
+  padding: 5rem 0;
+  /* display 3 */
 }
 
 #our-work .wrapper {
-  padding: 1rem;
   background-color: #fff;
-  width: 23.125rem;
   margin: auto;
-}
-
-#our-work .wrapper p {
-  color: #7a7a7a;
-  font-weight: 600;
-  font-size: 1.125rem;
-  margin-bottom: .5rem;
-}
-
-#our-work .wrapper h2 {
-  color: #01144d;
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 1.4rem;
 }
 
 #our-work .wrapper .work-description {
@@ -254,12 +239,218 @@ nav .nav-link {
 }
 
 @media screen and (min-width: 699px) {
-  #our-work .wrapper {
-    width: 40rem;
-  }
   #our-work .wrapper .carousel__description {
     width: 300px;
     margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #our-work .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  #our-work .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+#our-work .carousel-inner .carousel-item.active,
+#our-work .carousel-inner .carousel-item-next,
+#our-work .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media screen and (min-width: 699px) {
+  #our-work .carousel-inner .carousel-item-right.active,
+  #our-work .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  #our-work .carousel-inner .carousel-item-left.active,
+  #our-work .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+#our-work .carousel-inner .carousel-item-right,
+#our-work .carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 999px) {
+  #our-work .wrapper .work-description {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  #our-work {
+    padding: 7rem 0;
+  }
+}
+
+#management {
+  background-image: url("../images/work-management/management.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#management .wrapper {
+  padding: 3rem 0 0 0;
+}
+
+#management .wrapper p {
+  color: #fff;
+  color: #d3d3d3;
+}
+
+#management .wrapper h2 {
+  color: #fff;
+}
+
+#management .wrapper .management-description {
+  font-weight: 200;
+  margin-bottom: 3rem;
+}
+
+#management .wrapper .left, #management .wrapper .right {
+  padding: 3.5rem 0;
+  margin: 0 1rem;
+}
+
+#management .wrapper .left img, #management .wrapper .right img {
+  padding-bottom: 2rem;
+}
+
+#management .wrapper .left h5, #management .wrapper .right h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#management .wrapper .left p, #management .wrapper .right p {
+  font-weight: 200;
+  color: #6e6e6e;
+}
+
+#management .wrapper .left {
+  background-image: url("../images/work-management/icons/Circle.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #f3f3f3;
+}
+
+#management .wrapper .left img {
+  padding-bottom: 3.1rem;
+}
+
+#management .wrapper .right {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 699px) {
+  #management {
+    height: 35rem;
+  }
+  #management .wrapper .left, #management .wrapper .right {
+    margin: 0;
+  }
+}
+
+#our-team {
+  padding: 10rem 0 3rem 0;
+  /* display 3 */
+}
+
+#our-team .wrapper {
+  background-color: #fff;
+  margin: auto;
+}
+
+#our-team .wrapper .work-description {
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#our-team .wrapper .carousel {
+  margin: 2rem 0;
+}
+
+#our-team .wrapper .carousel__image {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+#our-team .wrapper .carousel__heading {
+  color: #01144d;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+#our-team .wrapper .carousel__info {
+  color: #7a7a7a;
+  font-size: .8rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+#our-team .wrapper .carousel__description {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 699px) {
+  #our-team {
+    padding: 15rem 0 4rem 0;
+  }
+  #our-team .wrapper .carousel__description {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #our-team .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  #our-team .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+#our-team .carousel-inner .carousel-item.active,
+#our-team .carousel-inner .carousel-item-next,
+#our-team .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media screen and (min-width: 699px) {
+  #our-team .carousel-inner .carousel-item-right.active,
+  #our-team .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+  #our-team .carousel-inner .carousel-item-left.active,
+  #our-team .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+#our-team .carousel-inner .carousel-item-right,
+#our-team .carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+@media screen and (min-width: 999px) {
+  #our-team .wrapper .work-description {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  #our-team {
+    padding: 7rem 0;
   }
 }
 
