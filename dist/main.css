@@ -181,7 +181,7 @@ nav .nav-link {
 @media screen and (min-width: 1399px) {
   #our-services {
     padding: 7rem 0;
-    background-image: url("/images/our-services/left-30.png"), url("/images/our-services/right-70.png");
+    background-image: url("../images/our-services/left-30.png"), url("../images/our-services/right-70.png");
     background-position: top left, top right;
     background-repeat: no-repeat, no-repeat;
     background-size: 35%, 65%;
