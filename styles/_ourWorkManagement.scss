@@ -24,6 +24,9 @@
         .left, .right {
             padding: 3.5rem 0;
             margin: 0 1rem;
+            -webkit-box-shadow: 10px 10px 5px 0px #87878738;
+            -moz-box-shadow: 10px 10px 5px 0px #87878738;
+            box-shadow: 10px 10px 5px 0px #87878738;
 
             img {
                 padding-bottom: 2rem;

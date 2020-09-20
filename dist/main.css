@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -136,6 +137,7 @@ nav .nav-link {
   background-color: #fff;
   width: 23.125rem;
   margin: auto;
+  box-shadow: 10px 10px 5px 0px #87878738;
 }
 
 #our-services .what-we-do .services__list {
@@ -181,8 +183,11 @@ nav .nav-link {
 @media screen and (min-width: 1399px) {
   #our-services {
     padding: 7rem 0;
+    background-color: #001343;
     background-image: url("../images/our-services/left-30.png"), url("../images/our-services/right-70.png");
-    background-position: top left, top right;
+    background-position: left, top right;
+    background-position-x: top;
+    background-position-y: bottom;
     background-repeat: no-repeat, no-repeat;
     background-size: 35%, 65%;
     height: 47rem;
@@ -316,6 +321,7 @@ nav .nav-link {
 #management .wrapper .left, #management .wrapper .right {
   padding: 3.5rem 0;
   margin: 0 1rem;
+  box-shadow: 10px 10px 5px 0px #87878738;
 }
 
 #management .wrapper .left img, #management .wrapper .right img {
@@ -539,6 +545,63 @@ nav .nav-link {
   font-size: 1rem;
   font-weight: 200;
   padding-bottom: 5rem;
+}
+
+#contact {
+  padding: 5rem 0;
+}
+
+#contact .btn {
+  color: #fff;
+}
+
+footer {
+  background-image: url("../images/footer/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+footer img {
+  margin-bottom: 2rem;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff841c;
+}
+
+footer a:last-child {
+  margin-right: 0;
+}
+
+footer div span {
+  color: #ff841c;
+}
+
+@media screen and (min-width: 699px) {
+  footer {
+    background-position-y: -17.5rem;
+  }
+  footer .links {
+    flex-direction: row;
+    justify-content: center;
+  }
+  footer .links a {
+    margin-right: 1rem;
+  }
 }
 
 /*!

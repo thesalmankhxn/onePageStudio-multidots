@@ -1,0 +1,52 @@
+footer {
+    background-image: url('../images/footer/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 0;
+    color: $light;
+
+    img {
+        margin-bottom: 2rem;
+    }
+
+    .links {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 2rem;
+    }
+
+    a {
+        
+        color: $light;
+        text-decoration: none;
+
+        &:hover {
+            color: $secondary;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    div {
+        span {
+            color: $secondary;
+        }
+    }
+
+    @include breakpoint(medium) {
+        
+        background-position-y: -17.5rem;
+
+        .links {
+                flex-direction: row;
+                justify-content: center;
+
+                a {
+                    margin-right: 1rem;
+                }
+        }
+    }
+}
