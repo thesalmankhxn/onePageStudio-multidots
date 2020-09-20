@@ -485,6 +485,62 @@ nav .nav-link {
   }
 }
 
+#testimonials .testimonial {
+  padding: 5rem 0;
+}
+
+#testimonials .testimonial__img {
+  width: 300px;
+  margin: 2rem 0;
+}
+
+#testimonials .testimonial .left {
+  display: flex;
+  justify-content: center;
+}
+
+#testimonials .testimonial .right p:nth-last-child(2) {
+  padding: 1.5rem 0 0 0;
+  color: #01144d;
+}
+
+#testimonials .testimonial .right p:last-of-type {
+  margin-top: -0.2rem;
+  font-size: .9rem;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 699px) {
+  #testimonials .testimonial .left {
+    display: block;
+  }
+}
+
+#testimonials .customer {
+  background-image: url("../images/testimonial/customer.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0 0 0;
+}
+
+#testimonials .customer__details img {
+  margin-bottom: 1rem;
+}
+
+#testimonials .customer__details p {
+  color: #ff841c;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+#testimonials .customer__details p:last-of-type {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  padding-bottom: 5rem;
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

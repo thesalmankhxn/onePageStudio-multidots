@@ -37,4 +37,66 @@
                 }
         }
     }
+
+    .testimonial {
+        padding: 5rem 0;
+
+        &__img {
+            width: 300px;
+            margin: 2rem 0;
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+        }
+
+        .right {
+            p:nth-last-child(2) {
+                padding: 1.5rem 0 0 0;
+                color: $primary;
+            }
+
+            p:last-of-type {
+                margin-top: -0.2rem;
+                font-size: .9rem;
+                font-weight: 300;
+            }
+        }
+
+        @include breakpoint(medium) {
+
+            .left {
+                display: block;
+            }
+        }
+    }
+
+    .customer {
+        background-image: url('../images/testimonial/customer.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5rem 0 0 0;
+
+        &__details {
+
+            img {
+                margin-bottom: 1rem;
+            }
+
+            p {
+                color: $secondary;
+                font-size: 2.3rem;
+                font-weight: 600;
+            }
+
+            p:last-of-type {
+                color: $light;
+                font-size: 1rem;
+                font-weight: 200;
+                padding-bottom: 5rem;
+            }
+        }
+    }
 }
