@@ -17,9 +17,23 @@
         font-weight: 400;
     }
 
-    input, textarea {
+    input, 
+    textarea {
         margin-bottom: 1rem;
         color: #6d6d6d;
         padding: 1.5rem;
+    }
+
+    @include breakpoint (medium) {
+
+        input, 
+        textarea {
+            margin-bottom: 2.5rem;
+        }
+        
+        .btn {
+            padding: .5rem 2rem;
+            margin-bottom: 0;
+        }
     }
 }

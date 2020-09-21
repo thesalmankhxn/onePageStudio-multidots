@@ -318,22 +318,26 @@ nav .nav-link {
   margin-bottom: 3rem;
 }
 
-#management .wrapper .left, #management .wrapper .right {
+#management .wrapper .left,
+#management .wrapper .right {
   padding: 3.5rem 0;
   margin: 0 1rem;
   box-shadow: 10px 10px 5px 0px #87878738;
 }
 
-#management .wrapper .left img, #management .wrapper .right img {
+#management .wrapper .left img,
+#management .wrapper .right img {
   padding-bottom: 2rem;
 }
 
-#management .wrapper .left h5, #management .wrapper .right h5 {
+#management .wrapper .left h5,
+#management .wrapper .right h5 {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-#management .wrapper .left p, #management .wrapper .right p {
+#management .wrapper .left p,
+#management .wrapper .right p {
   font-weight: 200;
   color: #6e6e6e;
 }
@@ -357,7 +361,8 @@ nav .nav-link {
   #management {
     height: 35rem;
   }
-  #management .wrapper .left, #management .wrapper .right {
+  #management .wrapper .left,
+  #management .wrapper .right {
     margin: 0;
   }
 }
@@ -567,10 +572,22 @@ nav .nav-link {
   font-weight: 400;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   margin-bottom: 1rem;
   color: #6d6d6d;
   padding: 1.5rem;
+}
+
+@media screen and (min-width: 699px) {
+  #contact input,
+  #contact textarea {
+    margin-bottom: 2.5rem;
+  }
+  #contact .btn {
+    padding: .5rem 2rem;
+    margin-bottom: 0;
+  }
 }
 
 footer {

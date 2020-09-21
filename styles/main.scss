@@ -1,8 +1,9 @@
-// custom variables & global styles
+// declared variables & global styles for all the sections
 @import "customVariables";
 @import "global";
 
 // Sections
+// declared styles for individual sections
 @import "navbar";
 @import "hero";
 @import "ourServices";

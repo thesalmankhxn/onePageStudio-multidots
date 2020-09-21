@@ -5,26 +5,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-// padding for left and right
-// .container-fluid {
-
-//     padding: 0 1.5rem;
-
-//     @include breakpoint(medium) {
-//         padding: 0 14rem;
-//     }
-
-//     @include breakpoint (large) {
-//         padding: 0 16rem;
-//     }
-// }
-
+// a class to align elements/text to center
 .text-center {
     text-align: center;
 }
 
-// wrapper
 
+// wrapper
 .wrapper {
 
     p {
