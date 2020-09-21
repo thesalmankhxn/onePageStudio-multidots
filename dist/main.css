@@ -553,6 +553,24 @@ nav .nav-link {
 
 #contact .btn {
   color: #fff;
+  margin-bottom: 2rem;
+}
+
+#contact p:nth-child(odd) {
+  color: #01144d;
+  font-size: 1rem;
+}
+
+#contact p:nth-child(even) {
+  color: #6d6d6d;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+#contact input, #contact textarea {
+  margin-bottom: 1rem;
+  color: #6d6d6d;
+  padding: 1.5rem;
 }
 
 footer {
