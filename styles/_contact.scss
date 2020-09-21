@@ -30,6 +30,10 @@
         textarea {
             margin-bottom: 2.5rem;
         }
+
+        input:nth-child(odd) {
+            margin-right: 2rem;
+        }
         
         .btn {
             padding: .5rem 2rem;

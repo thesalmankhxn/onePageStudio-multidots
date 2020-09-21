@@ -584,6 +584,9 @@ nav .nav-link {
   #contact textarea {
     margin-bottom: 2.5rem;
   }
+  #contact input:nth-child(odd) {
+    margin-right: 2rem;
+  }
   #contact .btn {
     padding: .5rem 2rem;
     margin-bottom: 0;
@@ -612,6 +615,7 @@ footer .links {
 footer a {
   color: #fff;
   text-decoration: none;
+  margin-bottom: 1rem;
 }
 
 footer a:hover {
