@@ -47,7 +47,7 @@ nav .nav-link {
 }
 
 #hero {
-  background-image: url("../images/hero-min.jpg");
+  background-image: url("../dist/images/hero-min.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ nav .nav-link {
 
 @media screen and (min-width: 999px) {
   #our-services {
-    background-image: url("../images/our-services/right-70.png");
+    background-image: url("../dist/images/our-services/right-70.png");
     background-position: top;
   }
   #our-services .what-we-do {
@@ -184,7 +184,7 @@ nav .nav-link {
   #our-services {
     padding: 7rem 0;
     background-color: #001343;
-    background-image: url("../images/our-services/left-30-min.png"), url("../images/our-services/right-70-min.png");
+    background-image: url("../dist/images/our-services/left-30-min.png"), url("../images/our-services/right-70-min.png");
     background-position: left, top right;
     background-position-x: top;
     background-position-y: bottom;
@@ -294,7 +294,7 @@ nav .nav-link {
 }
 
 #management {
-  background-image: url("../images/work-management/management.png");
+  background-image: url("../dist/images/work-management/management.png");
   background-size: cover;
   background-position: center;
 }
@@ -342,7 +342,7 @@ nav .nav-link {
 }
 
 #management .wrapper .left {
-  background-image: url("../images/work-management/icons/Circle.png");
+  background-image: url("../dist/images/work-management/icons/Circle.png");
   background-position: right;
   background-repeat: no-repeat;
   background-color: #f3f3f3;
@@ -459,7 +459,7 @@ nav .nav-link {
 }
 
 #testimonials .get-a-quote {
-  background-image: url("../images/testimonial/quote.png");
+  background-image: url("../dist/images/testimonial/quote.png");
   background-position-y: -3rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -527,7 +527,7 @@ nav .nav-link {
 }
 
 #testimonials .customer {
-  background-image: url("../images/testimonial/customer.png");
+  background-image: url("../dist/images/testimonial/customer.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -593,7 +593,7 @@ nav .nav-link {
 }
 
 footer {
-  background-image: url("../images/footer/footer.png");
+  background-image: url("../dist/images/footer/footer.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
